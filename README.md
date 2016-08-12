@@ -2,10 +2,9 @@
 Matlab and Unity are the main programs I use to simulate crowds in the Pnyx
 # The steps I took are outlined here:
 1. Interpolation
-	*Using "scaled_floor_60.csv" I had a reference to 350 X,Y,Z positions for the Pnyx
-	*"Pnyx_crowd_interpolation_refined.m" handles the reference points from the csv and 
-		interpolates the data using a Matlab function called scatteredInterpolant
-	*The rest of the file plots some test points and creates an obj file, but it is not used
+* Using "scaled_floor_60.csv" I had a reference to 350 X,Y,Z positions for the Pnyx
+* "Pnyx_crowd_interpolation_refined.m" handles the reference points from the csv and interpolates the data using a Matlab function called scatteredInterpolant
+* The rest of the file plots some test points and creates an obj file, but it is not used
 2. Spatial Partition
 	a.	"pnyx_index.m" is ran after interpolation to create an 81x81 grid of Y reference points
 	b.	Writes to "pnyx_reference_points.txt" which is used in Unity for Y lookup
