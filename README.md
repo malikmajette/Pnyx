@@ -1,6 +1,6 @@
 # Pnyx
 Matlab and Unity are the main programs I use to simulate crowds in the Pnyx
-The steps I took are outlined here:#
+# The steps I took are outlined here:
 1. Interpolation
 	*Using "scaled_floor_60.csv" I had a reference to 350 X,Y,Z positions for the Pnyx
 	*"Pnyx_crowd_interpolation_refined.m" handles the reference points from the csv and 
